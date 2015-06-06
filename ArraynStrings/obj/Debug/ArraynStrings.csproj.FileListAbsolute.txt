@@ -1,0 +1,6 @@
+C:\Users\AS025782\Dropbox\Practice\ArraynStrings\bin\Debug\ArraynStrings.exe.config
+C:\Users\AS025782\Dropbox\Practice\ArraynStrings\bin\Debug\ArraynStrings.exe
+C:\Users\AS025782\Dropbox\Practice\ArraynStrings\bin\Debug\ArraynStrings.pdb
+C:\Users\AS025782\Dropbox\Practice\ArraynStrings\obj\Debug\ArraynStrings.exe
+C:\Users\AS025782\Dropbox\Practice\ArraynStrings\obj\Debug\ArraynStrings.pdb
+C:\Users\AS025782\Dropbox\Practice\ArraynStrings\obj\Debug\ArraynStrings.csprojResolveAssemblyReference.cache

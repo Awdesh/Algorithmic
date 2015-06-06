@@ -1,0 +1,5 @@
+C:\Users\AS025782\Google Drive\Practice\DesignPatterns\bin\Debug\DesignPatterns.exe.config
+C:\Users\AS025782\Google Drive\Practice\DesignPatterns\bin\Debug\DesignPatterns.exe
+C:\Users\AS025782\Google Drive\Practice\DesignPatterns\bin\Debug\DesignPatterns.pdb
+C:\Users\AS025782\Google Drive\Practice\DesignPatterns\obj\Debug\DesignPatterns.exe
+C:\Users\AS025782\Google Drive\Practice\DesignPatterns\obj\Debug\DesignPatterns.pdb

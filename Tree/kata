@@ -1,0 +1,477 @@
+while(end <= start)
+{
+	int mid=  start + end /2;
+	if(arr[mid] == val)
+	{
+		return;
+	}
+	if(arr[mid] < val)
+	{
+		mid = mid + 1;
+	}
+	...
+}
+
+max diff - 10, 20, 8, 80, 7, 72
+
+int min = arr[0];
+int diff = arr[1] - arr[0]; 10
+
+for(int i = 1; i < length - 1; i++)
+{
+	if(arr[i] < min)
+	{
+		min = arr[i];
+	}
+
+	if((arr[i] - min) > diff  && arr[i] - min > 0)
+	{
+		diff = arr[i] - min;
+	}
+
+	return diff;
+}
+
+
+if(array == null)
+{
+	throw new ArgumentNullException("");
+}
+
+int sum = 0;
+int currentSum = arr[0];
+
+for(..)
+{
+	currentSum = arr[i] + arr[i-1];
+	if(currentSum < 0)
+	{
+		currentSum = 0;
+	}
+
+	if(currentSum  > max)
+	{
+		max = currentSum;
+	}
+}
+
+class QueueEmptyException  : Exception
+{
+	public void QueueFullException(string s)
+	{
+		throw new Exception();
+	}
+}
+
+
+// "10.128.195.58"
+
+// split the string into multiple strings so that it creats an array of string.
+// each character of the string lies between 0 and 9.
+// every string is between 0 and 255.
+// count number of dots. should be three i.e. total size of string array shoould be 4.
+// 
+
+string[] s = s.split(new char[] {'.'});
+
+// string is palindrome.
+
+civic.
+compare first and last element.
+char[c] >= 65 && char[c] <= 90.
+
+stack -  push all the elements inside stack, then start comparing each element in another loop.
+
+Tree
+{
+	Tree left;
+	Tree right;
+	int value;
+
+	Tree(int val)
+	{
+		this.value = val;
+	}
+
+	Insert(int data)
+	{
+		if(root == null)
+		{
+			Tree node = new Tree(data);
+			root = node;
+			node.left = null;
+			node.right = null;
+			return;
+		}
+
+		Tree temp = root;
+		while(temp != null)
+		{
+			if(temp.data < val)
+			{
+				// right.
+				temp = temp.right;
+			}
+			else
+			{
+				// left.
+				temp = temp.left;
+			}
+		}
+		temp = new Node(val);
+	}
+
+
+// BFS traversal.
+
+Queue<int> Q = new  ...
+Node temp = root;
+Q.Enqueue(temp);
+int maxHeight = 0;
+while(temp!=null)
+{
+	Node n = Q.dequeue();
+	int currentHeight = n.level;
+
+	if(temp.left != null)
+	{
+		temp.left.level = currentHeight + 1;
+		Q.Enqueue(temp.left)
+	}
+	// same for right.
+
+	if(currentHeight > maxHeight)
+	{
+		maxHeight = currentHeight;
+	}
+}
+
+return maxHeight;
+
+//Print paths - start from the root, and keep filling down the array. Initially give array some size. then keep calling method recursively.
+//items will get popped out from array as you call recursive mthod. 
+// when node's ;eft and right are null that means leaf node has been found so call print array method.
+
+
+// Quick Sort.
+
+// k and i, k points to end and i points to beginning. loop till k> i. fOR ALL elements that are greater than pivot keep searching from left to right inside the array.
+// if( k < i)
+swap
+// after loop swap again.
+QS
+QS
+
+
+
+// Hierarchy.
+
+Dictionary<char, int> map = new <~>();
+// loop through original map and fill new map's value with 0 as value.
+
+// loop through original dictionary and try to find key and value pair.
+// maintain two diff counts, count 1 for emp and count 2 for mgr.
+// count 1-: search the result map for the key that exists as a key, if it exists that means we need to account for all the values it contributes.
+// we do count 1 = result[emp]
+
+// if mgr exists inside the map already, that means we will just increase exisitng count by 1.
+// count  = count 1 + count2;
+// fill the resulting map.
+
+
+// Create two stack, one would be int stack and another would be char stack. use Int32.TryParse(char);
+// for all the space, continue.
+// for all the operators keep pushing them inside the operator stack.
+// for all the values push them inside the number stack.
+//if you envounter a number push it inside the stack.
+// if you envounter a right breacket, then keep peeking from the character stack untill you find left bracket.
+// for each operator pop two values oout of number stack and use operation from the operator stack. Store the value inside the Number stack.
+
+// if you see higher precedence operatoe already inside the stack then do the same process as above.
+// if op1 is * and / and op2 is + and - that means op1 has higher precedence.
+
+// switch(op)
+{
+	case '+' :
+		return a + b;
+	case '-' :
+		return a-b;
+}
+
+//preorder
+s.push(root);
+while(s.count > 0)
+{
+	temp = s.pop();
+	c.w();
+	if(temp.getRight() != null)
+	{
+		s.push
+	}
+	else
+		s.push
+}
+
+while(!done)
+{
+	if(temp ! = null)
+	{
+		s.push(temp);
+		temp = temp.left;
+	}
+	else
+	{
+		if(s.count > 0)
+		{
+			temp = s.pop();
+			c.w();
+			s.push(temp.right);
+		}
+		else
+		{
+			done = true;
+		}
+	}
+
+
+// if i get hired what are the things that i can do to contribute and stay successful in the team and in company.
+// what are the roadmaps of cloud in the near future?
+// Is there any thing
+
+mergesort
+mergesort
+merge
+
+
+n1 =  m + 1 -1;
+n2 = r - m;
+
+L[n1] L[n2]
+
+merge
+compare.
+
+fast = head;
+
+start fast.next;
+fast = start;
+
+while equal
+
+pre = cur.left
+pre.right 
+
+k > i
+
+if
+if
+
+k > i
+swap
+swap
+
+qs
+qs
+
+LIS
+
+L[]
+
+for(){
+	L[] = 1
+}
+
+for(i = 1)
+for(j = i ; j <i)
+{
+	if(L[i] < L[j] + 1)
+		L[i] = L[j] + 1;
+}
+
+LCS
+
+for(i = 0)
+	for(j = 0)
+		if(i == 0 || j == 0)
+			L[i,j] = 0;
+		elseif
+			if(X[i-1] == Y[j-1])
+
+		else
+
+
+
+		heap sort
+
+		sort()
+		{
+			heapfiy(arr);
+		}
+
+		heapfiy(int[] arr)
+		{
+			N = arr.length - 1;
+			for(i = N /2)
+			{
+				maxHeap(arr,i);
+			}
+		}
+
+		maxHeap(arr, i)
+		{
+			left = 2i
+			right 2i + 1;
+
+			int max = i
+
+			if(left)
+				max
+			if(right)
+				max
+
+			if(max != i)
+
+			swap();
+			maxHeap();
+		}
+
+		swap(int[] arr, int i, int max)
+		{
+
+		}
+
+Use AdventureWorks
+go		
+
+Create Procedure <procedure_name>
+AS
+Set NoCOUNT on // this will 
+
+Select * from
+sales.currency
+
+
+Create Procedure param_sp
+@var varchar(50)
+AS
+Set NoCount On
+
+select * from sales.currency
+where 
+currencycode = @var
+
+exec param_sp @var 'aed'
+
+2nd max
+
+
+select max(salary) from employee where
+salary not in (select max(salary) from employee)
+
+select * from students join grades on
+students.id = grades.id order by desc
+
+one to one
+
+cutomers
+customer_id  name     address_id
+1            first     301
+2            second     302
+
+
+Address
+address_id 			address 
+301                 blah 
+302                 blah
+
+
+select * from customers where customers.name LIKE '%a'
+LIKE 'ab%'  
+LIKE 'ab_d'
+
+CREATE PROCEDURE table.usp
+@First_Name nvarchar(50),
+@Last_Name nvarchar(50)
+
+AS 
+
+SET NOCOUNT ON;
+Select * from table
+where first_name  = @First_Name
+and last_name = @Last_Name
+
+GO
+
+EXEC table.usp 'test' 'data'
+
+
+
+
+
+
+CREATE PROCEDURE proc
+@First_Name = nvarchar
+
+AS 
+
+set NoCount ON
+Select * from Customers where
+customers.first_Name = @First_Name
+
+GO
+
+exec proc 'test'
+
+DDL
+	Create
+	Alter
+	Drop
+	Truncate - remove all records including spces.
+	comment rename
+DML
+	Select 
+	Insert
+	Update
+	Delete-: 
+
+DCL
+	Grant
+	Revoke
+
+select MAX(Salaray) from employee where salaray NOT IN (Select MAX(Salary) from  employee)
+Select COUNT(Salary) AS sal from employee
+Select FIRST(Salary) from employee.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hello Emily,
+
+Hope you are having a great start of week. I wanted to follow up in regards to my interview for Software Developer position. I am excited to potentially join a great team and company. I am eager to know new work plans and updates on the position. Please let me know when you have a free moment.
+
+Thank you,
+Awdesh Sharma.
+
+
+
+
+
+Hello Lincoln, 
+
+Thank you for the connection. I wonder if there is any way I might be of service to you. I see that you recruit for companies that need someone with my background and skills. 
+I'd appreciate being able to talk to you more about the position. Will you have some time in the next few days? I can be reached at awdesh@outlook.com or 315-382-9915. 
+
+I look forward to hearing from you. 
+
+Thank you, 
+
+Awdesh Sharma

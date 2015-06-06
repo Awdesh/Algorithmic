@@ -1,0 +1,6 @@
+C:\Users\AS025782\Dropbox\Practice\Trie\bin\Debug\Trie.exe.config
+C:\Users\AS025782\Dropbox\Practice\Trie\bin\Debug\Trie.exe
+C:\Users\AS025782\Dropbox\Practice\Trie\bin\Debug\Trie.pdb
+C:\Users\AS025782\Dropbox\Practice\Trie\obj\Debug\Trie.csprojResolveAssemblyReference.cache
+C:\Users\AS025782\Dropbox\Practice\Trie\obj\Debug\Trie.exe
+C:\Users\AS025782\Dropbox\Practice\Trie\obj\Debug\Trie.pdb
