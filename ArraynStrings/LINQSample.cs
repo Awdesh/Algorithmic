@@ -34,7 +34,7 @@ namespace ConsoleApplication1
         };
 
         /// <summary>
-        /// 
+        /// Method provide a sample of using IEnumerable interface.
         /// </summary>
         public void QueryUsingEnumerable()
         {
@@ -52,7 +52,7 @@ namespace ConsoleApplication1
         }
 
         /// <summary>
-        /// 
+        /// Method provide a sample of using var.
         /// </summary>
         public void QueryUsingVar()
         {
@@ -70,7 +70,7 @@ namespace ConsoleApplication1
         }
 
         /// <summary>
-        /// 
+        /// Method provide a sample of LINQ query.
         /// </summary>
         public void QueryModification()
         {
@@ -94,7 +94,7 @@ namespace ConsoleApplication1
         }
 
         /// <summary>
-        /// 
+        /// Method provide a sample of using Let keyword.
         /// </summary>
         public void QueryUsingLetKeyword()
         {
@@ -113,7 +113,7 @@ namespace ConsoleApplication1
         }
 
         /// <summary>
-        /// 
+        /// Method provide a sample of using Lambda expression.
         /// </summary>
         public void LambdaExpression()
         {
