@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Trie
 {
     /// <summary>
-    /// 
+    /// Class responsible for creating a trie structure.
     /// </summary>
     class CreateTrie
     {
@@ -27,7 +27,7 @@ namespace Trie
         public Node root = new Node();
 
         /// <summary>
-        /// 
+        /// Constructor taking in an array of words and creating "Trie" from it.
         /// </summary>
         /// <param name="words"></param>
         public CreateTrie(string[] words)
