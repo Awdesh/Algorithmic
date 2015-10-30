@@ -90,27 +90,6 @@ namespace Practice
             }
         }
 
-        //LRN
-        //public void PostorderTraversalWithoutRecursion( TreeNode root )
-        //{
-        //    Stack<TreeNode> s = new Stack<TreeNode>();
-        //    if ( root == null )
-        //    {
-        //        return;
-        //    }
-        //    s.Push(root);
-        //    TreeNode temp = root;
-        //    while(!s.isEmpty())
-        //    {
-        //        if(temp)
-        //        {
-        //            s.Push(temp);
-        //            temp = temp.getRight();
-        //        }
-        //    }
-
-        //}
-
         // BFS and preorder implementation are mostly same.
         // BFS uses queue and inside while we do getLeft() first because queue is FIFO whereas Stack on LIFO.
         public void BFSTraversal(TreeNode root)
