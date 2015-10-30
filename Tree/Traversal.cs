@@ -11,7 +11,7 @@ namespace Practice
     {
         //NLR
         /// <summary>
-        /// 
+        /// Using Stack to represent PreOrder operation over Tree.
         /// </summary>
         /// <param name="root"></param>
         public void PreOrderTraversalWithoutRecusrion(TreeNode root)
