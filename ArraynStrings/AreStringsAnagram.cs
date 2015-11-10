@@ -13,10 +13,8 @@ namespace Miscellaneous
 			foreach(char elem in s1.ToUpper().ToCharArray())
 			{
 				if(!dict.ContainsKey(elem))
-				{
 					dict.Add(elem, 1);
-				}
-
+			}
 				else
 					dict[elem] = dict[elem] + 1;
 			}
@@ -25,11 +23,13 @@ namespace Miscellaneous
 			{
 				if(dict.ContainsKey(elem))
 				{
+					// If this is the last value left for the key, then remove the key too.
 					if (dict [elem] == 1) {
 						dict.Remove (elem);
 						continue;
 					}
-
+					
+					// remove values for a given key.
 					dict[elem] = dict[elem] - 1;
 				}
 			}
