@@ -22,18 +22,20 @@ namespace ArraynStrings
                 {
                     dict.Add(elem, 1);
                 }
+            
+                else
+                    dict[elem] += 1;
             }
 
             foreach (char elem in s2.ToCharArray())
             {
-                if(!dict.ContainsKey(elem))
+                if(dict.ContainsKey(elem))
                 {
-                    return false;
-                }
-                // Anagrams formed by using characters exactly once, that's why we have used "--dict[elem]" logic below.
-                if(--dict[elem] == 0)
-                {
-                    dict.Remove(elem);
+                    if(dict[elem] == 0)
+                    {
+                        dict.Remove(elem);
+                    }
+                    dict[elem] -= 1;
                 }
             }
 
