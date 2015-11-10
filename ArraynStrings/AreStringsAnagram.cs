@@ -33,7 +33,7 @@ namespace Miscellaneous
 					dict[elem] = dict[elem] - 1;
 				}
 			}
-			return dict.Values.Count == 0;
-	}
-}
+			return dict.Count == 0;
+	   }
+  }
 }
