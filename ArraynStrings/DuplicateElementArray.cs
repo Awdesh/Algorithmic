@@ -47,7 +47,7 @@ namespace Practice
                     }
                     else
                     {
-                        Console.WriteLine("dup is-: {0}", array[i]);
+                        Console.WriteLine("dup is-: {0}", Math.Abs(array[i]));
                     }
                 }
                 catch
