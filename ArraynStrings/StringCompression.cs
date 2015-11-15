@@ -8,6 +8,41 @@ namespace HomePractice
 	/// </summary>
 	public class StringCompression
 	{
+		/// <summary>
+		/// Using Dictionary.	
+		/// </summary>
+		/// <returns>The string.</returns>
+		/// <param name="ip">Ip.</param>
+		public static string CompressString(string ip)
+		{
+			if (ip.Length == 1)
+				return ip;
+
+			Dictionary<char,int> map = new Dictionary<char, int> ();
+			foreach (char c in ip.ToCharArray()) 
+			{
+				if (!map.ContainsKey (c))
+					map.Add (c, 1);
+				else
+					map [c]++;
+			}
+
+			System.Text.StringBuilder sb = new System.Text.StringBuilder ();
+			foreach (char c in map.Keys) 
+			{
+				if (map [c] == 1) {
+					sb.Append (c);
+					continue;
+				}
+
+				sb.Append (c);
+				sb.Append (map[c]);
+			}
+
+			return sb.ToString ();
+		}
+		
+		
 		public char[] Compress(string s)
 		{
 			int count = 1;
