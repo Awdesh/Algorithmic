@@ -9,7 +9,7 @@ namespace Practice
     class StringReversal
     {
         /// <summary>
-        /// 
+        /// using array.Reverse() method.
         /// </summary>
         /// <param name="str"></param>
         /// <returns></returns>
