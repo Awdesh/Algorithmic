@@ -45,7 +45,7 @@ namespace Practice
         }
 
         /// <summary>
-        /// 
+        /// Using recursion.
         /// </summary>
         /// <param name="word"></param>
         /// <returns></returns>
