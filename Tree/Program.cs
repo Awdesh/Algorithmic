@@ -18,11 +18,6 @@ namespace Tree
             this.data = data;
         }
 
-        public TreeNode()
-        {
-
-        }
-
         public TreeNode getLeft()
         {
             return left;
